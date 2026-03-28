@@ -91,23 +91,23 @@
 
         <h2>Schöne 74 m² Wohnung zur Weitergabe</h2>
 
-        <p>Wir bieten unsere 74 m² große Wohnung mit sehr guter Raumaufteilung zur Weitergabe an. 
-        Die Wohnung befindet sich im 7. Stock, ist bequem mit einem geräumigen Aufzug erreichbar 
+        <p>Wir bieten unsere 74 m² große Wohnung mit sehr guter Raumaufteilung zur Weitergabe an.
+        Die Wohnung befindet sich im 7. Stock, ist bequem mit einem geräumigen Aufzug erreichbar
         und liegt in der Spitalgasse, direkt in der Nähe des Krankenhauses.</p>
 
-        <p>Auch an regnerischen Tagen ist alles komfortabel, da zur Wohnung ein eigener, überdachter 
-        Parkplatz gehört, der sich direkt beim Eingang befindet. Die Wohnung wird frisch gestrichen 
+        <p>Auch an regnerischen Tagen ist alles komfortabel, da zur Wohnung ein eigener, überdachter
+        Parkplatz gehört, der sich direkt beim Eingang befindet. Die Wohnung wird frisch gestrichen
         übergeben, und es ist wichtig zu erwähnen, dass bisher keine Haustiere gehalten wurden.</p>
 
-        <p>Für hohen Wohnkomfort sorgt eine Fußbodenheizung (Fernwärme). Außerdem verfügt die Wohnung 
+        <p>Für hohen Wohnkomfort sorgt eine Fußbodenheizung (Fernwärme). Außerdem verfügt die Wohnung
         über eine großzügige Terrasse von ca. 14–15 m², die ideal zum Entspannen ist.</p>
 
-        <p>Zur Wohnung gehört auch ein eigenes, geräumiges Kellerabteil. Zusätzlich stehen ein gemeinsamer 
-        Kinderwagen- und Fahrradraum zur Verfügung, und bei Bedarf kann die Waschmaschine ebenfalls im 
+        <p>Zur Wohnung gehört auch ein eigenes, geräumiges Kellerabteil. Zusätzlich stehen ein gemeinsamer
+        Kinderwagen- und Fahrradraum zur Verfügung, und bei Bedarf kann die Waschmaschine ebenfalls im
         Keller untergebracht werden.</p>
 
         <p>Die Hausgemeinschaft ist freundlich und verständnisvoll – selbst mit zwei kleinen Kindern gab es 
-        nie Beschwerden wegen Lärm. Zum Gebäude gehört außerdem ein gemeinsamer Innenhof mit einem gepflegten 
+        nie Beschwerden wegen Lärm. Zum Gebäude gehört außerdem ein gemeinsamer Innenhof mit einem gepflegten
         Spielplatz, der auch für Erwachsene eine gute Möglichkeit zur Erholung bietet 
         (z. B. zum Aufstellen einer Bierbank).</p>
 
@@ -124,75 +124,12 @@
         </ul>
 
         <h3>Bildergalerie</h3>
+
         <div class="gallery">
-            IMG_2174.jpeg
-            IMG_2175.jpeg
-            IMG_2176.jpeg
-            IMG_2177.jpeg
-            IMG_2178.jpeg
-            IMG_2179.jpeg
-            IMG_2180.jpeg onclick="openLightbox(6)">
-            IMG_2181.jpeg
-            IMG_2182.jpeg
-            IMG_2183.jpeg
-            IMG_2184.jpeg
-            IMG_2185.jpeg
-            IMG_2186.jpeg
-            IMG_2188.jpeg
-            IMG_2189.jpeg
-            IMG_2190.jpeg
-        </div>
-
-    </div>
-
-    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
-        <span class="prev" onclick="event.stopPropagation(); prevImage();">&#10094;</span>
-        <img id="lightbox-img">
-        <span class="next" onclick="event.stopPropagation(); nextImage();">&#10095;</span>
-    </div>
-
-<script>
-let images = [
-    "IMG_2174.jpeg",
-    "IMG_2175.jpeg",
-    "IMG_2176.jpeg",
-    "IMG_2177.jpeg",
-    "IMG_2178.jpeg",
-    "IMG_2179.jpeg",
-    "IMG_2180.jpeg",
-    "IMG_2181.jpeg",
-    "IMG_2182.jpeg",
-    "IMG_2183.jpeg",
-    "IMG_2184.jpeg",
-    "IMG_2185.jpeg",
-    "IMG_2186.jpeg",
-    "IMG_2188.jpeg",
-    "IMG_2189.jpeg",
-    "IMG_2190.jpeg"
-];
-
-let currentIndex = 0;
-
-function openLightbox(index) {
-    currentIndex = index;
-    document.getElementById("lightbox-img").src = images[index];
-    document.getElementById("lightbox").style.display = "flex";
-}
-
-function closeLightbox() {
-    document.getElementById("lightbox").style.display = "none";
-}
-
-function nextImage() {
-    currentIndex = (currentIndex + 1) % images.length;
-    document.getElementById("lightbox-img").src = images[currentIndex];
-}
-
-function prevImage() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-    document.getElementById("lightbox-img").src = images[currentIndex];
-}
-</script>
-
-</body>
-</html>
+            <img src="IMG_2174.jpeg" onclick="openLightbox(0)">
+            <img src="IMG_2175.jpeg" onclick="openLightbox(1)">
+            <img src="IMG_2176.jpeg" onclick="openLightbox(2)">
+            <img src="IMG_2177.jpeg" onclick="openLightbox(3)">
+            <img src="IMG_2178.jpeg" onclick="openLightbox(4)">
+            <img src="IMG_2179.jpeg" onclick="openLightbox(5)">
+            <img src="IMG_2180.jpeg" onclick="openLightbox(6)">
