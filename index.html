@@ -31,7 +31,6 @@
             margin-top: 0;
         }
 
-        /* GALÉRIA */
         .gallery {
             display: flex;
             gap: 10px;
@@ -53,7 +52,6 @@
             transform: scale(1.05);
         }
 
-        /* LIGHTBOX */
         .lightbox {
             display: none;
             position: fixed;
@@ -93,30 +91,60 @@
 
         <h2>Schöne 74 m² Wohnung zur Weitergabe</h2>
 
-        <h3>Bildergalerie</h3>
+        <p>Wir bieten unsere 74 m² große Wohnung mit sehr guter Raumaufteilung zur Weitergabe an.
+        Die Wohnung befindet sich im 7. Stock, ist bequem mit einem geräumigen Aufzug erreichbar
+        und liegt in der Spitalgasse, direkt in der Nähe des Krankenhauses.</p>
 
+        <p>Auch an regnerischen Tagen ist alles komfortabel, da zur Wohnung ein eigener, überdachter
+        Parkplatz gehört, der sich direkt beim Eingang befindet. Die Wohnung wird frisch gestrichen
+        übergeben, und es ist wichtig zu erwähnen, dass bisher keine Haustiere gehalten wurden.</p>
+
+        <p>Für hohen Wohnkomfort sorgt eine Fußbodenheizung (Fernwärme). Außerdem verfügt die Wohnung
+        über eine großzügige Terrasse von ca. 14–15 m², die ideal zum Entspannen ist.</p>
+
+        <p>Zur Wohnung gehört auch ein eigenes, geräumiges Kellerabteil. Zusätzlich stehen ein gemeinsamer
+        Kinderwagen- und Fahrradraum zur Verfügung, und bei Bedarf kann die Waschmaschine ebenfalls im
+        Keller untergebracht werden.</p>
+
+        <p>Die Hausgemeinschaft ist freundlich und verständnisvoll – selbst mit zwei kleinen Kindern gab es 
+        nie Beschwerden wegen Lärm. Zum Gebäude gehört außerdem ein gemeinsamer Innenhof mit einem gepflegten
+        Spielplatz, der auch für Erwachsene eine gute Möglichkeit zur Erholung bietet 
+        (z. B. zum Aufstellen einer Bierbank).</p>
+
+        <p>Wir haben hier in den letzten 5 Jahren sehr zufrieden gelebt, und auch mit dem Vermieter verlief 
+        alles stets problemlos.</p>
+
+        <h3>Miete & Kosten</h3>
+
+        <ul>
+            <li><strong>Miete:</strong> 840 € / Monat</li>
+            <li><strong>Kaution:</strong> 3.500 €</li>
+            <li><strong>Ablöse:</strong> nach Vereinbarung (das große Sofa im Wohnzimmer bleibt auf jeden Fall)</li>
+            <li><strong>Verfügbar ab:</strong> 1. Mai</li>
+        </ul>
+
+        <h3>Bildergalerie</h3>
         <div class="gallery">
-            <img src="IMG_2174.jpeg" onclick="openLightbox(0)">
-            <img src="IMG_2175.jpeg" onclick="openLightbox(1)">
-            <img src="IMG_2176.jpeg" onclick="openLightbox(2)">
-            <img src="IMG_2177.jpeg" onclick="openLightbox(3)">
-            <img src="IMG_2178.jpeg" onclick="openLightbox(4)">
-            <img src="IMG_2179.jpeg" onclick="openLightbox(5)">
-            <img src="IMG_2180.jpeg" onclick="openLightbox(6)">
-            <img src="IMG_2181.jpeg" onclick="openLightbox(7)">
-            <img src="IMG_2182.jpeg" onclick="openLightbox(8)">
-            <img src="IMG_2183.jpeg" onclick="openLightbox(9)">
-            <img src="IMG_2184.jpeg" onclick="openLightbox(10)">
-            <img src="IMG_2185.jpeg" onclick="openLightbox(11)">
-            <img src="IMG_2186.jpeg" onclick="openLightbox(12)">
-            <img src="IMG_2188.jpeg" onclick="openLightbox(13)">
-            <img src="IMG_2189.jpeg" onclick="openLightbox(14)">
-            <img src="IMG_2190.jpeg" onclick="openLightbox(15)">
+            IMG_2174.jpeg" onclick="openLightbox(0)">
+            IMG_2175.jpeg" onclick="openLightbox(1)">
+            IMG_2176.jpeg" onclick="openLightbox(2)">
+            IMG_2177.jpeg" onclick="openLightbox(3)">
+            IMG_2178.jpeg" onclick="openLightbox(4)">
+            IMG_2179.jpeg" onclick="openLightbox(5)">
+            IMG_2180.jpeg" onclick="openLightbox(6)">
+            IMG_2181.jpeg" onclick="openLightbox(7)">
+            IMG_2182.jpeg" onclick="openLightbox(8)">
+            IMG_2183.jpeg" onclick="openLightbox(9)">
+            IMG_2184.jpeg" onclick="openLightbox(10)">
+            IMG_2185.jpeg" onclick="openLightbox(11)">
+            IMG_2186.jpeg" onclick="openLightbox(12)">
+            IMG_2188.jpeg" onclick="openLightbox(13)">
+            IMG_2189.jpeg" onclick="openLightbox(14)">
+            IMG_2190.jpeg" onclick="openLightbox(15)">
         </div>
 
     </div>
 
-    <!-- LIGHTBOX -->
     <div id="lightbox" class="lightbox" onclick="closeLightbox()">
         <span class="prev" onclick="event.stopPropagation(); prevImage();">&#10094;</span>
         <img id="lightbox-img">
@@ -168,4 +196,3 @@ function prevImage() {
 
 </body>
 </html>
-
